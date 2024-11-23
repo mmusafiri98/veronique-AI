@@ -58,6 +58,18 @@
         .assistant-video {
             border-radius: 7px;
         }
+        .image-container video {
+        width: 200px; /* Riduce la larghezza del video */
+        height: auto; /* Mantiene le proporzioni del video */
+        border-radius: 10px;
+    }
+
+    /* Per una visualizzazione reattiva */
+    @media (max-width: 768px) {
+        .image-container video {
+            width: 150px; /* Riduce ulteriormente la dimensione sui dispositivi più piccoli */
+        }
+    }
     </style>
 </head>
 
